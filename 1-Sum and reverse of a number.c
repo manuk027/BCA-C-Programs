@@ -19,7 +19,7 @@ int main()
 	}
 	printf("\nSum of the digits of the given number:%d \n", sum);
 	
-	printf("Reverse of the give number is: %d" ,rev);
+	printf("Reverse of the given number is: %d" ,rev);
 
 	return 0;
 }

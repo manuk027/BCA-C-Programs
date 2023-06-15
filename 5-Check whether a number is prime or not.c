@@ -11,9 +11,9 @@ void main()
   printf("Enter any positive number:");
   scanf("%d",&number);
   
-  for(i=2, i<number-1; i++)
+  for(i=2; i<number-1; i++)
   {
-    if (n%i==0)
+    if (number%i==0)
     r=1;
     break;
   }

@@ -1,10 +1,12 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     int r;
     int s;
     int t=0;
     int rows=0;
+    clrscr();
     
     printf("Enter the number of rows to print the pyramid:");
     scanf("%d",&rows);
@@ -24,5 +26,5 @@ int main()
         }
         printf("\n");
     }
-    return 0;
+    getch();
 }

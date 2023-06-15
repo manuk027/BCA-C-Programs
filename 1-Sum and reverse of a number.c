@@ -1,10 +1,12 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
 	int num;
 	int d;
 	int sum=0;
 	int rev=0;
+	clrscr();
 	
 	printf("Enter a number:");
 	scanf("%d",&num);
@@ -21,5 +23,5 @@ int main()
 	
 	printf("Reverse of the given number is: %d" ,rev);
 
-	return 0;
+	getch();
 }

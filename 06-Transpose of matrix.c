@@ -1,13 +1,17 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     int arr1[50][50];
     int brr1[50][50];
     int i, j, r, c;
+    clrscr();
     printf("\n\nTranspose of matrix:\n");
     printf("----------------------------\n");
-    printf("\nInput the number of rows and number of columns of the matrix: ");
-    scanf("%d %d",&r,&c);
+    printf("\nInput the number of rows of the matrix:");
+    scanf("%d", &r);
+    printf("\nInput the number of coloumns of the matrix:");
+    scanf("%d", &c);
     printf("Input elementsin the first matrix :\n");
     for(i=0;i<r;i++)
         {
@@ -43,5 +47,5 @@ int main()
             }
     }
 printf("\n\n");
-return 0;
+getch();
 }

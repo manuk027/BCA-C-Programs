@@ -16,7 +16,6 @@ int main()
                     printf("Elements -[%d],[%d] : ",i,j);
                     scanf("%d",&arr1[i][j]);
                 }
-            
         }
     printf("\nThe matrix is :\n");
     for(i=0;i<r;i++)

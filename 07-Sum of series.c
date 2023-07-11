@@ -16,8 +16,8 @@ void main()
 {
     int n;
   clrscr();
-    printf("enter the limit");
+    printf("Enter the limit:");
     scanf("%d",&n);
-    printf("\nsum of the series is:%f",series(n));
+    printf("\nSum of the series is:%f",series(n));
     getch();
 }

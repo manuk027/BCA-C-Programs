@@ -1,19 +1,19 @@
-
-#include<string.h>
+#include<stdio.h>
 #include<conio.h>
-int main()
+#include<string.h>
+void main()
 {
-  char s[200];
-  int count=0,i;
-  clrscr();
-  printf("enter the string:\n");
-  scanf("%[^\n]s",s);
-  for(i=0;s[i]!='\0';i++)
-  {
-    if (s[i]==' '&&s[i+1]!=' ')
-    count++;
-  }
-  printf("number ofwordsin given sting are:%d\n",count+1);
-  getch();
-  return 0;
+    char str[100], *ptr, l, t;
+    clrscr();
+    printf("Enter the string:");
+    gets(str);
+    l=strlen(str);
+    ptr=str;
+    printf("%c", *(ptr+0));
+    for(i=0; i<1; i++)
+    {
+        if(*(ptr+i-1)=='')
+        printf("%c", *(ptr+i));
+    }
+    getch();
 }

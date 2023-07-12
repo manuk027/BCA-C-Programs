@@ -12,5 +12,5 @@ void main()
     printf("\n%d notes:%d",a[i],temp/a [i]);
     temp=temp%a[i];
   }
-getch;
+getch();
 }

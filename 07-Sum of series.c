@@ -15,7 +15,7 @@ double series (int n)
 void main()
 {
     int n;
-  clrscr();
+    clrscr();
     printf("Enter the limit:");
     scanf("%d",&n);
     printf("\nSum of the series is:%f",series(n));

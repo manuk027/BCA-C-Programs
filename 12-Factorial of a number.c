@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int fact(int);
-int main()
+void main()
 {
     int x,n;
     clrscr();

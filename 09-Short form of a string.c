@@ -1,19 +1,22 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
-void main()
+
+void main() 
 {
-    char str[100], *ptr, l, t;
-    clrscr();
-    printf("Enter the string:");
-    gets(str);
-    l=strlen(str);
-    ptr=str;
-    printf("%c", *(ptr+0));
-    for(i=0; i<1; i++)
+    int f, sec, length, i; 
+	char s[15];
+	printf("Enter a String: ");
+	scanf("%[^\n]s", s);
+	f = s[0];
+	printf("The short form is %c", f);
+	length = strlen(s);
+	for (i = 1; i < length; i++) 
     {
-        if(*(ptr+i-1)=='')
-        printf("%c", *(ptr+i));
-    }
-    getch();
+		if (s[i] == ' ') 
+        { 
+			sec = s[i + 1];
+		}
+	}
+	printf("%c\n", sec); 
+	getch();
 }

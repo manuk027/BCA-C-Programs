@@ -15,11 +15,11 @@ void main()
   }
   if(stricmp(s,r)==0)
   {
-    printf("\nThe given string is pallindrome");
+    printf("\nThe given string is palindrome");
   }
   else
   {
-    printf("\nThe given string is not pallindrome");
+    printf("\nThe given string is not palindrome");
   }
   getch();
 }

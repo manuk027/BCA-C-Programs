@@ -5,7 +5,7 @@ void main()
   char s[30],r[30];
   int i=0,l,j;
   clrscr();
-  printf("\n Enter the string: ");
+  printf("\nEnter the string: ");
   scanf("%s",&s);
   l=strlen(s);
   for(j=l-1;j>=0;j--)

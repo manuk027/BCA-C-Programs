@@ -4,7 +4,7 @@
 void main()
 {
     unsigned dec, t, d, i;
-    char bin[20], oct[15], hec[5];
+    char bin[20], oct[15], hex[5];
     clrscr();
     printf("Enter a decimal number:");
     scanf("%d", &dec);

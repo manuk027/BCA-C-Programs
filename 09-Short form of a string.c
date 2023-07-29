@@ -1,22 +1,22 @@
 #include<stdio.h>
 #include<string.h>
-
+#include<conio.h>
 void main() 
 {
-	int f, sec, length, i; 
+	int f, let, length, i; 
 	char s[15];
+	clrscr();
 	printf("Enter a String: ");
 	scanf("%[^\n]s", s);
 	f = s[0];
 	printf("The short form is %c", f);
-	length = strlen(s);
-	for (i = 1; i < length; i++) 
-    	{
+	for (i = 1;s[i]!='\0'; i++) 
+	{
 		if (s[i] == ' ') 
-        	{ 
-			sec = s[i + 1];
+		{ 
+			let = s[i + 1];
+			printf("%c",let);
 		}
 	}
-	printf("%c\n", sec); 
-	getch();
+	getch(); 
 }

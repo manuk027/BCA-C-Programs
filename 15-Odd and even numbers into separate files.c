@@ -13,7 +13,7 @@ void main()
     fp2=fopen("odd", "wb");
     if (fp1==NULL||fp2==NULL)
     {
-        printf("Erroe opening file\n");
+        printf("Error opening file\n");
         getch();
         exit(1);
     }

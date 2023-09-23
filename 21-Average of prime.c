@@ -1,6 +1,5 @@
 #include<stdio.h>  
-#include<conio.h>
-  
+#include<conio.h> 
 void averageofprime(int prime[], int size)
 {  
   int sum=0;
@@ -8,7 +7,7 @@ void averageofprime(int prime[], int size)
   int i;
   for(i=0; i<size; i++)
   {
-    sum += prime[i];
+    sum+=prime[i];
   }  
   avg=(float)sum/size;
   printf("The average of prime numbers is: %.2f\n", avg);
@@ -16,8 +15,7 @@ void averageofprime(int prime[], int size)
 
 void main()
 {
-  int range, prime[100];
-  int i, j=0, k, h=0, flag;
+  int range, i, k, flag, j=0, h=0, prime[100];
   clrscr();
   printf("Enter a range:");  
   scanf("%d", &range);  
@@ -28,13 +26,13 @@ void main()
     flag=1;
     for(j=2; j<=i/2; ++j)
     {
-      if (i % j == 0)
+      if(i%j==0)
       {
-        flag = 0;
+        flag=0;
         break;
       }
     }
-    if (flag == 1)
+    if(flag==1)
     {
       printf("%d\n", i);
       prime[h]=i;

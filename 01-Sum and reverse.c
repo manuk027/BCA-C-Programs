@@ -2,10 +2,7 @@
 #include<conio.h>
 void main()
 {
-  int num;
-  int d;
-  int sum=0;
-  int rev=0;
+  int num, d, sum=0, rev=0;
   clrscr();
   printf("Enter a number:");
   scanf("%d",&num);

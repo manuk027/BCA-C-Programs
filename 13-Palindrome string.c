@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-#inclide<conio.h>
+#include<conio.h>
 void main()
 {
   char s[30],r[30];

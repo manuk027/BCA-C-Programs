@@ -14,7 +14,7 @@ void main()
     r[i]=s[j];
     i++;
   }
-  if(stricmp(s,r)==0)
+  if(strcmp(s,r)==0)
   {
     printf("\nThe given string is palindrome");
   }
